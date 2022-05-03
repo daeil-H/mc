@@ -1,15 +1,11 @@
 # what is EAP?  
-EAP(Equipment Application Program)는 CIM과 시스템 역할은 유사하지만 큰 차이점이 있다.  
-CIM은 장비Level에 가까운데 EAP는 Host 영역이다.  
-
-EAP의 역할은 상위 Host 시스템 (MES, FDC, SPC 등등)과 interface 를 하면서 장비를 Control 하고 Event수집 및 DataCollection 하는 것이다.  
-EAP는 SEMI에서 본래 반도체 공장에 장비와 Host 통신 인터페이스를 위한 표준을 정하고 이를 제어하고 데이터를 수집하기 위한 interface 시스템으로 볼 수 있다.  
-초기에는 반도체 공장에 장비 interface 시스템이였으나 LCD/OLED 로 확대 되었다.  
-물론  
-상위 Host시스템 (MES, FDC, SPC, MCS 등등 에서 직접 interface 를 할 수 있으나 interface 를 분리해서 운영하는게 일반적이다.  
-이는 시스템의 목적이 달라서 서로를 구분하고, Network traffic 을 분리하고, Load balancing 하는 측면이 있다.
-EAP는 각 기업의 site 공장마다 다르게 용어를 구분하기도 한다.  
-TC(Tool Control), MC(Machine Control), EIS 등등 기업에 따라서 용어가 다르지만 기능은 동일하다.
+EAP(Equipment Application Program)는 상위 Host 시스템 (MES, FDC, SPC 등등)과 interface 를 하면서 장비를 Control 하고 Event수집 및 DataCollection 하는 역할을 가집니다. 
+EAP는 SEMI에서 본래 반도체 공장에 장비와 Host 통신 인터페이스를 위한 표준을 정하고 이를 제어하고 데이터를 수집하기 위한 interface 시스템으로 볼 수 있습니다.  
+초기에는 반도체 공장에 장비 interface 시스템이였으나 LCD/OLED 로 확대 되었습니다.  
+물론 상위 Host시스템 (MES, FDC, SPC, MCS 등등)에서 직접 interface 를 할 수 있으나 interface를 분리해서 운영하는게 일반적입니다.  
+이는 시스템의 목적이 달라서 서로를 구분하고, Network traffic 을 분리하고, Load balancing 하기 위해서입니다.
+EAP는 각 기업의 site 공장마다 다르게 용어를 구분하기도 합니다.  
+TC(Tool Control), MC(Machine Control), EIS 등등 기업에 따라서 용어가 다르지만 기능은 비슷비슷 합니다.
 
 ##### Scope of EAP
 ![image](https://user-images.githubusercontent.com/78777059/166433011-46934c5c-d928-4064-b947-2386676ebe71.png)  

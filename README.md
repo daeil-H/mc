@@ -192,29 +192,32 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 이번장에서는 nanoMC를 이용해서 기본적인 EAP(Equipment Application Program)를 만들고 설비와 Connect 시키고,  
 간단한 메시지를 주고받는 부분까지 진행해 보겠습니다.  
 
-### 1️⃣ MC Wizard를 사용하여 Template Application 제작
+## 1️⃣ MC Wizard를 사용하여 Template Application 제작
 ![image](https://user-images.githubusercontent.com/78777059/166403091-191e73fc-d1c1-4355-856d-496e9487c12b.png)
 ![image](https://user-images.githubusercontent.com/78777059/166403158-572dabdd-2fa8-4acd-8c9f-59e82a765afc.png)
 ![image](https://user-images.githubusercontent.com/78777059/166403184-2f2ceff7-bc5c-421c-baed-084e5849f981.png)
 ![image](https://user-images.githubusercontent.com/78777059/166404790-e7b2c4d3-0989-4df4-93e2-7113fddd65a8.png)
 
-### 2️⃣ Template Project Open, Debug 정보 수정 후 Build
+## 2️⃣ Template Project Open, Debug 정보 수정 후 Build
 ![image](https://user-images.githubusercontent.com/78777059/166405196-4ee5633f-e930-460f-83f4-0f5b5caa1798.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166405195-95c4011d-52f9-4a26-b981-37377a297334.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166405236-9c15baa1-c75a-4a48-969d-f3e555be8585.png)
 ![image](https://user-images.githubusercontent.com/78777059/166405266-483c9e38-cbfe-4681-b9a9-87009a113a20.png)
 ###### (DB에 정보가 추가되지 않아서 데이터를 읽어올 수 없음)  
 
-### 3️⃣ MC Studio에 MC 정보 입력  
+## 3️⃣ MC Studio에 MC 정보 입력  
 ![image](https://user-images.githubusercontent.com/78777059/166405496-dab25dc1-f1de-42d8-a752-01a7d460d04f.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166405385-331ba858-ff91-4728-b0c4-33fded574d4f.png)  
-![image](https://user-images.githubusercontent.com/78777059/166405577-8732a74f-ce34-4548-9c94-eba4b643d5a6.png)
-![image](https://user-images.githubusercontent.com/78777059/166405600-e2fde634-fb39-406e-b80f-aec57aa66b83.png)
-![image](https://user-images.githubusercontent.com/78777059/166405685-47757955-2ea8-4d97-991f-31e6df778ef8.png)
-![image](https://user-images.githubusercontent.com/78777059/166405713-c66eec48-a6c2-4c9f-8092-807034717f45.png)
-![image](https://user-images.githubusercontent.com/78777059/166405737-ba21e4dd-e120-4368-ab89-f504ccc158c2.png)
+![image](https://user-images.githubusercontent.com/78777059/166405577-8732a74f-ce34-4548-9c94-eba4b643d5a6.png)  
+![image](https://user-images.githubusercontent.com/78777059/166405600-e2fde634-fb39-406e-b80f-aec57aa66b83.png)  
+![image](https://user-images.githubusercontent.com/78777059/166407850-9c2402b5-e86f-4f73-a0a7-cf88595033bd.png)  
+![image](https://user-images.githubusercontent.com/78777059/166407873-aed66926-f893-420e-a4d2-2919952481aa.png)  
+![image](https://user-images.githubusercontent.com/78777059/166407914-33954cac-d55f-4acc-a3db-6831a4a0f59e.png)  
 
-### 4️⃣ 
+
+## 4️⃣ Template Project 재실행
+![image](https://user-images.githubusercontent.com/78777059/166408127-f2c8d910-9903-433f-b25b-efda384354bc.png)
+
 
 # 💡 License
 ![image](https://user-images.githubusercontent.com/102704655/161007121-8da3684a-c5bc-4bc6-8247-6ea363a340eb.png)  

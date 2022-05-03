@@ -11,7 +11,12 @@ EAP는 SEMI에서 본래 반도체 공장에 장비와 Host 통신 인터페이�
 EAP는 각 기업의 site 공장마다 다르게 용어를 구분하기도 한다.  
 TC(Tool Control), MC(Machine Control), EIS 등등 기업에 따라서 용어가 다르지만 기능은 동일하다.
 
-![image](https://user-images.githubusercontent.com/78777059/166428658-2da7783a-2282-435c-95b8-c9d614af5a9b.png)
+##### Scope of EAP
+![image](https://user-images.githubusercontent.com/78777059/166433011-46934c5c-d928-4064-b947-2386676ebe71.png)  
+
+##### SW Architecture
+![image](https://user-images.githubusercontent.com/78777059/166433048-c3c4b17c-a29d-4207-8975-411d5086265d.png)  
+
 
 # SECom Enabler
 SECS Protocol을 따르는 통신 Driver.  

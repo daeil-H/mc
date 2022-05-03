@@ -236,7 +236,7 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ![image](https://user-images.githubusercontent.com/78777059/166412067-1499d41d-600b-4d35-858c-2e770aa6d62a.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166415605-d23fbd85-58e4-4c7d-8f01-a1ebd56bb6ac.png)   
 ![image](https://user-images.githubusercontent.com/78777059/166415918-09875f46-d1f7-498d-8667-eeb8bce6d409.png)  
-![image](https://user-images.githubusercontent.com/78777059/166418498-79f00385-579e-4078-a667-94fde5678e51.png)  
+![image](https://user-images.githubusercontent.com/78777059/166422601-23700fd1-4e82-4c4c-a0ab-c4ade631c807.png)  
 
 ```C#
 using System;
@@ -273,7 +273,7 @@ namespace SampleScenario
         {
         }
 
-        public void SendS1F3()
+        public void SendS1F3(MCData mcdata)
         {
             SXTransaction sxTrx = new SXTransaction();
             sxTrx.Stream = 1;
@@ -310,6 +310,7 @@ namespace SampleScenario
 ![image](https://user-images.githubusercontent.com/78777059/166416291-01d23faa-f26a-4ab2-bac0-01b74aeab7b5.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166416334-dab67b2d-7c54-425a-8bec-d55e2fd32ab6.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166418600-d7984c2e-5920-4e23-bb80-7824593c7f23.png)  
+![image](https://user-images.githubusercontent.com/78777059/166419917-a3cace3a-74e7-4075-9e18-68eddf2a9fb7.png)  
 
 
 # 💡 License

@@ -235,8 +235,10 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ![image](https://user-images.githubusercontent.com/78777059/166415496-bbc174b9-c678-4d05-9e82-d88a06b9fc4b.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166412067-1499d41d-600b-4d35-858c-2e770aa6d62a.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166415605-d23fbd85-58e4-4c7d-8f01-a1ebd56bb6ac.png)   
-![image](https://user-images.githubusercontent.com/78777059/166413869-6b1820ad-1bae-4b61-b51b-546e3f73be33.png)  
-![image](https://user-images.githubusercontent.com/78777059/166413919-8b84fa03-2efa-45a7-8219-4c45097510d6.png)  
+![image](https://user-images.githubusercontent.com/78777059/166415918-09875f46-d1f7-498d-8667-eeb8bce6d409.png)  
+![image](https://user-images.githubusercontent.com/78777059/166415954-9f9ca09e-b796-444f-89d6-1b6f5def475f.png)  
+
+
 ```C#
 using System;
 using System.Collections.Generic;
@@ -244,7 +246,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using AIM.MC.Framework.Data;
 using AIM.MC.Framework.Interface;
+using AIM.MC.Framework.Context;
+using AIM.MC.Framework.MCApplication;
+using AIM.MC.Framework.Logger;
 
 using SEComEnabler.SEComStructure;
 using AIM.MC.Framework.MCApplication;
@@ -252,8 +258,24 @@ using AIM.MC.Framework.Logger;
 
 namespace SampleScenario
 {
-    public class SampleActions : IExposeWorkFlow
+    public class SampleActions : IMCComponent
     {
+        public void INITIALIZE()
+        {
+        }
+
+        public void TERMINATE()
+        {
+        }
+
+        public void CONFIGURE(Context aContext)
+        {
+        }
+
+        public void ARRIVED_DATA(string aFrom, string aTo, object aData)
+        {
+        }
+
         private static void SendS1F3()
         {
             SXTransaction sxTrx = new SXTransaction();
@@ -277,6 +299,7 @@ namespace SampleScenario
         }
     }
 }
+
 
 ```
 ![image](https://user-images.githubusercontent.com/78777059/166414028-d655847e-a6e0-4229-9064-a55eb7037375.png)  

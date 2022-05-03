@@ -218,14 +218,74 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ## 4️⃣ Template Project 재실행 (Connect 확인)  
 ![image](https://user-images.githubusercontent.com/78777059/166408127-f2c8d910-9903-433f-b25b-efda384354bc.png)  
 
-## 5️⃣ 간단한 WorkFlow 그려보기  
+## 5️⃣ 간단한 WorkFlow 그려보기 (첫번째, MC Framwork 사용)  
 ![image](https://user-images.githubusercontent.com/78777059/166410196-0ef0132a-fafe-4e87-8e94-9087cf474c13.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166410254-47ad97b6-171f-417c-a4b2-564cf810e5f6.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166410274-bedcecbc-3453-4249-8d6f-d681bd86216c.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166410298-a3f06762-941a-45c4-ba45-bc19ae759c37.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166410400-cda9aa7a-9cd9-4070-9065-3899eecd2dd5.png)  
-![image](https://user-images.githubusercontent.com/78777059/166410493-4ad5ef4f-2a0c-4d03-94c3-dc417a11b032.png)
-![image](https://user-images.githubusercontent.com/78777059/166410503-fbaac610-1193-4102-b5b0-2084bab1c253.png)
+![image](https://user-images.githubusercontent.com/78777059/166410493-4ad5ef4f-2a0c-4d03-94c3-dc417a11b032.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410503-fbaac610-1193-4102-b5b0-2084bab1c253.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410728-435cd399-9d99-4e26-bb3e-55ca24b3e3c7.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410757-496cb622-5794-45a2-8d17-343ab6084738.png)  
+
+## 6️⃣ 간단한 WorkFlow 그려보기 (두번째, Custom Scenario Create)  
+![image](https://user-images.githubusercontent.com/78777059/166410818-cdc4573b-434b-4cb4-8d13-d27682a4bb00.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410854-520d2605-51c0-47bf-a29c-0614e865ee5b.png)  
+![image](https://user-images.githubusercontent.com/78777059/166411004-7958b310-e4e5-4965-a200-d287c6f772c8.png)  
+![image](https://user-images.githubusercontent.com/78777059/166412067-1499d41d-600b-4d35-858c-2e770aa6d62a.png)  
+![image](https://user-images.githubusercontent.com/78777059/166412072-28988b16-b007-48fc-bfa7-44516cb6fc0b.png)  
+![image](https://user-images.githubusercontent.com/78777059/166412244-ec0afe5f-53b1-475e-bdf2-989d8fbb0731.png)  
+![image](https://user-images.githubusercontent.com/78777059/166413869-6b1820ad-1bae-4b61-b51b-546e3f73be33.png)  
+![image](https://user-images.githubusercontent.com/78777059/166413919-8b84fa03-2efa-45a7-8219-4c45097510d6.png)  
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using AIM.MC.Framework.Interface;
+
+using SEComEnabler.SEComStructure;
+using AIM.MC.Framework.MCApplication;
+using AIM.MC.Framework.Logger;   
+
+namespace SampleScenario
+{
+    public class SampleActions : IExposeWorkFlow
+    {
+        private static void SendS1F3()
+        {
+            SXTransaction sxTrx = new SXTransaction();
+            sxTrx.Stream = 1;
+            sxTrx.Function = 3;
+            sxTrx.Wait = true;
+            sxTrx.MessageData = "TEST";
+            try
+            {
+                if (MCApplication.This().BaseSECSWrapper == null)
+                    MCApplication.This().BaseLogManager.WriteLog("SECSWrapper is null, check type of this equipment", LogLevel.L5_FAIL);
+                else
+                    MCApplication.This().BaseSECSWrapper.Request(MCApplication.This().EquipmentID, sxTrx);
+
+            }
+            catch (System.Exception e)
+            {
+                MCApplication.This().BaseLogManager.WriteLog(e.Message, LogLevel.L5_FAIL);
+            }
+
+        }
+    }
+}
+
+```
+![image](https://user-images.githubusercontent.com/78777059/166414028-d655847e-a6e0-4229-9064-a55eb7037375.png)  
+![image](https://user-images.githubusercontent.com/78777059/166414106-952e93c7-e026-4353-a162-4f36d30f0ae2.png)  
+![image](https://user-images.githubusercontent.com/78777059/166414754-aa2da6e7-890e-4df8-88e1-5793497b53d5.png)  
+![image](https://user-images.githubusercontent.com/78777059/166414850-440c2d90-db7d-4fc7-a0b8-b13c3d2d5d91.png)  
+![image](https://user-images.githubusercontent.com/78777059/166414903-a6591b55-9b0c-4df4-8b15-1c9368755381.png)  
+![image](https://user-images.githubusercontent.com/78777059/166415233-be8309c6-ebd8-4b7d-8b16-06d4223dea09.png)  
 
 
 # 💡 License

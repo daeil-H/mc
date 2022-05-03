@@ -236,8 +236,7 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ![image](https://user-images.githubusercontent.com/78777059/166412067-1499d41d-600b-4d35-858c-2e770aa6d62a.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166415605-d23fbd85-58e4-4c7d-8f01-a1ebd56bb6ac.png)   
 ![image](https://user-images.githubusercontent.com/78777059/166415918-09875f46-d1f7-498d-8667-eeb8bce6d409.png)  
-![image](https://user-images.githubusercontent.com/78777059/166415954-9f9ca09e-b796-444f-89d6-1b6f5def475f.png)  
-
+![image](https://user-images.githubusercontent.com/78777059/166418498-79f00385-579e-4078-a667-94fde5678e51.png)  
 
 ```C#
 using System;
@@ -253,8 +252,6 @@ using AIM.MC.Framework.MCApplication;
 using AIM.MC.Framework.Logger;
 
 using SEComEnabler.SEComStructure;
-using AIM.MC.Framework.MCApplication;
-using AIM.MC.Framework.Logger;   
 
 namespace SampleScenario
 {
@@ -276,7 +273,7 @@ namespace SampleScenario
         {
         }
 
-        private static void SendS1F3()
+        public void SendS1F3()
         {
             SXTransaction sxTrx = new SXTransaction();
             sxTrx.Stream = 1;

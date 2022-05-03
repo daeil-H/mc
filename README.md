@@ -230,12 +230,11 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ![image](https://user-images.githubusercontent.com/78777059/166410757-496cb622-5794-45a2-8d17-343ab6084738.png)  
 
 ## 6️⃣ 간단한 WorkFlow 그려보기 (두번째, Custom Scenario Create)  
-![image](https://user-images.githubusercontent.com/78777059/166415420-eea7ee84-4774-4497-9580-4960497532c1.png)  
+![image](https://user-images.githubusercontent.com/78777059/166415759-d8d79567-5d6e-4000-b474-76de41f81932.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166410854-520d2605-51c0-47bf-a29c-0614e865ee5b.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166415496-bbc174b9-c678-4d05-9e82-d88a06b9fc4b.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166412067-1499d41d-600b-4d35-858c-2e770aa6d62a.png)  
-![image](https://user-images.githubusercontent.com/78777059/166415605-d23fbd85-58e4-4c7d-8f01-a1ebd56bb6ac.png)  
-![image](https://user-images.githubusercontent.com/78777059/166412244-ec0afe5f-53b1-475e-bdf2-989d8fbb0731.png)  
+![image](https://user-images.githubusercontent.com/78777059/166415605-d23fbd85-58e4-4c7d-8f01-a1ebd56bb6ac.png)   
 ![image](https://user-images.githubusercontent.com/78777059/166413869-6b1820ad-1bae-4b61-b51b-546e3f73be33.png)  
 ![image](https://user-images.githubusercontent.com/78777059/166413919-8b84fa03-2efa-45a7-8219-4c45097510d6.png)  
 ```C#

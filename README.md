@@ -2,12 +2,12 @@
 
 # 📌 Index
 * [📖 Intro](#-intro)
-* [📖 Installation](#-installation)
+* [💻 Installation](#-installation)
 * [🔎 OverView](#-overview)
-* [📑 MC Studio](#-mc-studio)
-* [📑 MC Wizard](#-mc-wizard)
+* [📔 MC Studio](#-mc-studio)
+* [📖 MC Wizard](#-mc-wizard)
 * [📑 MC Agent](#-mc-agent)
-* [📑 MC Framework](#-mc-framwork)
+* [⚙️ MC Framework](#-mc-framwork)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
 
@@ -17,7 +17,7 @@
 에임시스템은 그동안의 수많은 경험과 새로운 Architecture 의 연구, Pattern 의 연구등을 통해 nanoMC 를 공급하게 되었습니다. 공통된 분모들을 묶은 형태의 프레임워크와 뛰어난 개발 편의성을 제공하게 되는데, 가장 큰 철학은 얼마나 쉽게 개발자가 이해할 수 있는가라는 것에 있습니다. 따라서, 이 책의 목표는 사용자 여러분들이 기존의 기술을 새로운 기술로 이동하는데 도움을 주는 것에 있습니다. 
 
 
-# 📖 Installation  
+# 💻 Installation  
 nanoMC Intallation package는 MCFramework과 EAP를 개발하고 운영하기 위한 도구들을 포함하고 있으며 사용자가 보다 쉽게 nanoMC를 설치할 수 있도록 도와줄 것입니다.  
 
 ##### Install Package  
@@ -137,7 +137,7 @@ Recompile 과 Restart 가 필요없는 시스템 구축
 ###### - WorkFlow 시스템  
 원하는 형태의 Business Process 를 정의하고, 이를 각각의 조건에 따라 (복수)실행  
 
-# 📑 MC Studio  
+# 📔 MC Studio  
 Studio 는 nanoMC Framework 을 사용하는 장비 서버 프로그램을 개발하고, 이를 운영하기 위해 사용하는 User Interface Tool 입니다.  
 Database 와 연동으로 모델링 데이터의 무결성을 확보하고, 사용자 권한을 지정함으로써, 데이터 오류를 미연에 방지합니다.  
   
@@ -156,7 +156,7 @@ nanoMC 환경하에서 Studio 를 사용할 것을 강력히 추천합니다.
 ![image](https://user-images.githubusercontent.com/78777059/166394151-dfc19798-d67c-4a17-a7ab-92993dcd640b.png)
 
 
-# 📑 MC Wizard  
+# 📖 MC Wizard  
 nanoMC Framework 을 사용해서 장비 서버 프로그램을 개발할 때, 개발자에게 Guide 역할을 해줍니다.  
 Wizard의 주요기능 두가지는 다음과 같습니다.  
 1. EAP 프로그램 Template 을 제공  
@@ -175,7 +175,7 @@ Agent는 EC에서 실행되는 프로그램으로 다음의 두 가지 역할을
 EC와 네트워크로 연결된 Computer에서 Studio를 통해 특정 EC에 있는 특정 Application의 실행을 명령할 수 있는데, 이 명령을 특정 EC에 있는 Agent가 받아 Application을 구동시키는 역할을 합니다.  
 
 
-# 📑 MC Framework  
+# ⚙️ MC Framework  
 자동화 프로그램에 대한 기술적 틀을 만드는 것은 필수입니다. 개발 뿐만 아니라, 유지 보수 측면까지 고려해야만 합니다.  
 “nanoMC Framework 이라 함은 반도체 및 LCD 장비 자동화 프로그램에 대한 기술적 틀을 제공함” 을 의미하며, 이것은 마치 컴퓨터를 사용하기 위해 제일 먼저 Operating System 을 설치하는 것과 같다고 볼 수 있습니다.  
   
@@ -195,3 +195,6 @@ EC와 네트워크로 연결된 Computer에서 Studio를 통해 특정 EC에 있
 ###### The software described in this document is furnished under a license and may be used or copied only in accordance with the terms of such license.
 ###### No part of this document may be reproduced in any form of by any means without permission in writing from AIM Systems, Inc.
 ###### nanoMC is a trademark of AIM Systems, Inc.
+
+# 📫 Contact
+http://www.aim.co.kr/

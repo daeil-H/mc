@@ -9,8 +9,8 @@
 * [📑 MC Agent](#-mc-agent)
 * [⚙️ MC Framework](#-mc-framework)
 * [🔧 Getting Start](#-getting-start)
-* [💡 License](#-License)
-* [📫 Contact](#-Contact)
+* [💡 License](#-license)
+* [📫 Contact](#-contact)
 
 # 📖 intro  
 장비 서버 프로그램을 개발하는 데는 하나의 방법만이 있는 것이 아니며, 또한 개발을 위한 완벽한 플랫폼이 있는 것이 아닙니다. 그러나, 플랫폼을 만드는 사람들은 도달할 수 없는 이러한 이상을 위해 계속 노력하고 있습니다. 그러나 현실적으로 생각을 해보면, 기존의 장비 서버 프로그램을 만드는 기술이 완전하게 새로운 기술로 대체되기 보다는 수정되는 편이 한결 나을 것입니다. 하지만, 우리는 “변화는 소프트웨어를 이용한 작업의 본질”이라는 것을 잊어서는 안될 것입니다.
@@ -36,86 +36,85 @@ nanoMC를 사용하여 개발 및 운영할 때 사용되는 Utility입니다.
 nanoMC 사용 설명서입니다.  
 
 ##### Install  
-nanoMC 3.1 Install CD에서 nanoMC 3.1_Setup.exe 파일을 실행시킵니다.  
-그림 2.2.1과 같이 설치작업을 준비하는 윈도우를 볼 수 있습니다.  
-![image](https://user-images.githubusercontent.com/78777059/166392689-15ca5f7b-afb5-4fe0-a19f-1a676a5fc617.png)  
-					      <그림 2.2.1>  
+nanoMC Install CD에서 nanoMC Setup.exe 파일을 실행시킵니다.  
+설치작업을 준비하는 윈도우를 볼 수 있습니다.  
+![image](https://user-images.githubusercontent.com/78777059/166392689-15ca5f7b-afb5-4fe0-a19f-1a676a5fc617.png)   
 
-2.2.2	Welcome  
+Welcome  
 설치를 계속하기 위해 Next 버튼을 클릭합니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166392780-66fa9b8c-e314-464c-94b6-03863cc69dde.png)
-					     <그림 2.2.2>  
-2.2.3	Maintenance  
+
+Maintenance  
 nanoMC가 설치되어 있다면 Maintenance 윈도우가 실행될 것입니다.  
 처음 설치하는 것이라면 이 단계는 실행되지 않습니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166392843-d58221da-7223-48a5-a8ee-4feac52d9cdd.png)  
-					    <그림 2.2.3>  
+
 -	Modify : 새로운 Component를 추가하거나 기존의 Component를 제거합니다. 이 항목을 선택한다면 Component를 선택하는 단계로 넘어갑니다.  
 -	Repair : 전에 설치한 설정정보에 따라 다시 설치합니다.  
 -	Remove : 설치되었던 모든 파일을 삭제합니다.  
 
-2.2.4	License Agreement  
+License Agreement  
 
 Software 사용권 동의서를 읽으십시요.  
 ![image](https://user-images.githubusercontent.com/78777059/166392902-9778aba3-1c9b-418e-aff7-21829eb2afa1.png)   
-					    <그림 2.2.4>  
+
 
 위 내용에 동의한다면 붉은 사각형 안의 ‘ I accept the items of the license agreement ’ 항목을 클릭합니다. 이 항목에 체크하지 않는다면   버튼은 활성화 되지 않습니다.  
 동의하지 않는다면   버튼을 클릭하여 InstallShield Wizard를 종료합니다.  
-2.2.5	Customer Information  
+Customer Information  
 
 사용자 이름, 회사 이름과 Serial Number를 입력한 후   버튼을 클릭하여 다음 단계로 넘어갑니다.  
 Serial Number는 배포되는 nanoMC의 CD 케이스 뒷면에 있습니다.  
  ![image](https://user-images.githubusercontent.com/78777059/166392979-0d50df91-242e-49e4-81de-4dff0d34a3b5.png)  
-					     <그림 2.2.5>  
-2.2.6	Destination Folder  
-그림 2.2.6은 nanoMC및 SEComEnabler가 설치될 경로를 보여줍니다. 경로를 바꾸고자 한다면 ‘ Browse ’ 버튼을 클릭하여 설치될 경로를 지정합니다.  
+ 
+Destination Folder  
+다음은 nanoMC및 SEComEnabler가 설치될 경로를 보여줍니다. 경로를 바꾸고자 한다면 ‘ Browse ’ 버튼을 클릭하여 설치될 경로를 지정합니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166392992-f103a7d1-ad9d-4959-86bb-80aa711137f7.png)   
-					     <그림 2.2.6>  
-다은 단계에서 선택할 컴포넌트들은 Destination Folder의 하위 Directory로 설치가 됩니다. nanoMC 3.1을 선택한다면 C:\Program Files\AIM Systems, Inc.\nanoMC 3.1 의 경로로 설치가 됩니다.  
-2.2.7	Setup Type 선택  
+
+다은 단계에서 선택할 컴포넌트들은 Destination Folder의 하위 Directory로 설치가 됩니다.  
+Default는 C:\Program Files\AIM Systems, Inc.\nanoMC version\ 의 경로로 설치가 됩니다.  
+Setup Type 선택  
 
 설치하고자 하는 유형를 선택합니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166393017-da639ecb-36e7-4263-b869-901ec66491b4.png)  
-					      <그림 2.2.7>  
-2.2.7.1	Developer  
-nanoMC 3.1을 사용하여 EAP를 개발하고 운영할 수 있는 컴포넌트를 설치합니다.  
-2.2.7.2	Custom  
+ 
+Developer  
+nanoMC를 사용하여 EAP를 개발하고 운영할 수 있는 컴포넌트를 설치합니다.  
+Custom  
 설치하고자 하는 컴포넌트를 직접 선택할 수 있습니다.  
-2.2.7.3	Equipment Server  
+Equipment Server  
 장비 서버에 설치하고자 한다면 이 항목을 선택합니다.  
 
-2.2.8	Feature 선택  
+Feature 선택  
 
-그림 2.2.8은 이전 단계의 Setup Type중에서 Developer를 선택했을 때의 Feature 선택 화면입니다.   
+다음은 이전 단계의 Setup Type중에서 Developer를 선택했을 때의 Feature 선택 화면입니다.   
 체크되어 있는 Feature들은 모두 설치가 됩니다. 이 중에서 설치하지 않으려는 Feature들은 체크표시를 없애줍니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166393035-11583f39-5c2b-427e-be34-21f69bf8ddca.png)   
-					      <그림 2.2.8>  
 
 Next 버튼을 클릭하면 설치를 시작할 수 있습니다.  
 
-2.2.9	Install 시작  
+Install 시작  
 
 설치 작업에 필요한 정보를 모두 입력하였습니다.
 Install 버튼을 클릭하면 이전 단계에서 설정한대로 설치작업을 시작합니다.
 ![image](https://user-images.githubusercontent.com/78777059/166393093-c758b238-5b72-45b6-bbb1-7d67bf6faa92.png)   
-					  <그림 2.2.9>  
-2.2.10	Setup Status  
-이전 단계에서   버튼을 클릭하였다면 설치 작업을 시작할 것입니다. 그림 2.2.10은 Setup 진행 상태를 보여줍니다.  
+ 
+Setup Status  
+이전 단계에서   버튼을 클릭하였다면 설치 작업을 시작할 것입니다. 다음은 Setup 진행 상태를 보여줍니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166393107-c7c79e72-8e39-40d2-99b1-abcc948dfc60.png)  
-					   <그림 2.2.10>  
-2.2.11	Complete  
+
+Complete  
 설치작업이 완료되었음을 나타냅니다.   
 ![image](https://user-images.githubusercontent.com/78777059/166393118-21f8956c-5fff-4d47-b0ad-30abcef72423.png)  
-					    <그림 2.2.11>  
-2.2.12	Uninstall  
-Setup.exe 파일을 실행시키면 그림 2.2.12과 같은 윈도우가 실행됩니다.   
+
+Uninstall  
+Setup.exe 파일을 실행시키면 다음과 같은 윈도우가 실행됩니다.   
 ![image](https://user-images.githubusercontent.com/78777059/166393128-abf364d8-7d0b-4f9b-8c46-b0b1195e8b9e.png)  
-					    <그림 2.2.12>  
+
 세 가지 항목중에서 Remove 항목을 클릭하여 Check한 후 Uninstall 버튼을 클릭하여 제거작업을 시작합니다.  
-그림 2.2.13는 제거 작업의 진행 상황을 보여줍니다.  
+다음은 제거 작업의 진행 상황을 보여줍니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166393144-beaf7aaa-2dcf-466a-9cb9-7203d2d0ff52.png)   
-					  <그림 2.2.13>  
+
 
 제거작업이 성공적으로 끝나면 Finish 버튼을 클릭하여 종료합니다.  
 ![image](https://user-images.githubusercontent.com/78777059/166393161-ce7cca23-697d-4ab6-936f-3ab31c2f48c4.png)
@@ -180,7 +179,7 @@ EC와 네트워크로 연결된 Computer에서 Studio를 통해 특정 EC에 있
 자동화 프로그램에 대한 기술적 틀을 만드는 것은 필수입니다. 개발 뿐만 아니라, 유지 보수 측면까지 고려해야만 합니다.  
 “nanoMC Framework 이라 함은 반도체 및 LCD 장비 자동화 프로그램에 대한 기술적 틀을 제공함” 을 의미하며, 이것은 마치 컴퓨터를 사용하기 위해 제일 먼저 Operating System 을 설치하는 것과 같다고 볼 수 있습니다.  
   
-수많은 API 를 제공함으로써, 개발자는 개발 기간이 단축되고, 표준화된 코드를 사용할 수 있습니다.  
+nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기간이 단축되고, 표준화된 코드를 사용할 수 있습니다.  
   
 자동화 요구 사항이 훨씬 많아지고, 복잡해짐으로써, 자동화 프로그램은 다음과 같은 세가지 역할을 수행할 수 있어야 합니다.  
 이것은 nanoMC Framework 을 사용하는 중요한 이유가 됩니다.  
@@ -190,7 +189,10 @@ EC와 네트워크로 연결된 Computer에서 Studio를 통해 특정 EC에 있
 
 
 # 🔧 Getting Start  
+이번장에서는 nanoMC를 이용해서 기본적인 EAP(Equipment Application Program)를 만들고 설비와 Connect 시키고,  
+간단한 메시지를 주고받는 부분까지 진행해 보겠습니다.  
 
+### 1️⃣ 
 
 
 # 💡 License

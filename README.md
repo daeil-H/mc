@@ -7,7 +7,8 @@
 * [📔 MC Studio](#-mc-studio)
 * [📖 MC Wizard](#-mc-wizard)
 * [📑 MC Agent](#-mc-agent)
-* [⚙️ MC Framework](#-mc-framwork)
+* [⚙️ MC Framework](#-mc-framework)
+* [🔧 Getting Start](#-getting-start)
 * [💡 License](#-License)
 * [📫 Contact](#-Contact)
 
@@ -186,6 +187,10 @@ EC와 네트워크로 연결된 Computer에서 Studio를 통해 특정 EC에 있
 
 “nanoMC Framework 은 장비 자동화 프로그램을 구성할 때 필요한 공통요소를 엮어 만든 것입니다” 라고 앞에서 설명한 바와 같이,  
 지금까지 우리가 항상 해왔던 반복적인 작업과 의미없는 작업들을 프레임웍 Level 에서 지원해 줌으로써, 개발자는 실제 비즈니스 로직을 더욱더 충실하게 작업할 수 있게 됩니다.  
+
+
+# 🔧 Getting Start  
+
 
 
 # 💡 License

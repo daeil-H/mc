@@ -215,8 +215,17 @@ nanoMC Framwork은 수많은 API 를 제공함으로써, 개발자는 개발 기
 ![image](https://user-images.githubusercontent.com/78777059/166407914-33954cac-d55f-4acc-a3db-6831a4a0f59e.png)  
 
 
-## 4️⃣ Template Project 재실행
-![image](https://user-images.githubusercontent.com/78777059/166408127-f2c8d910-9903-433f-b25b-efda384354bc.png)
+## 4️⃣ Template Project 재실행 (Connect 확인)  
+![image](https://user-images.githubusercontent.com/78777059/166408127-f2c8d910-9903-433f-b25b-efda384354bc.png)  
+
+## 5️⃣ 간단한 WorkFlow 그려보기  
+![image](https://user-images.githubusercontent.com/78777059/166410196-0ef0132a-fafe-4e87-8e94-9087cf474c13.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410254-47ad97b6-171f-417c-a4b2-564cf810e5f6.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410274-bedcecbc-3453-4249-8d6f-d681bd86216c.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410298-a3f06762-941a-45c4-ba45-bc19ae759c37.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410400-cda9aa7a-9cd9-4070-9065-3899eecd2dd5.png)  
+![image](https://user-images.githubusercontent.com/78777059/166410493-4ad5ef4f-2a0c-4d03-94c3-dc417a11b032.png)
+![image](https://user-images.githubusercontent.com/78777059/166410503-fbaac610-1193-4102-b5b0-2084bab1c253.png)
 
 
 # 💡 License
